@@ -19,10 +19,10 @@
 >
 >server {
 >listen  443 ssl;
->server_name www.hoboj.cn;
+>server_name 网址;
 >ssl on;
->ssl_certificate /etc/nginx/1933939_www.hoboj.cn.pem;
->ssl_certificate_key /etc/nginx/1933939_www.hoboj.cn.key;
+>ssl_certificate /etc/nginx/证书;
+>ssl_certificate_key /etc/nginx/证书;
 >client_max_body_size 50M;
 >#charset utf-8;
 >access_log  /root/https.access.log;
